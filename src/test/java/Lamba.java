@@ -62,9 +62,5 @@ public class Lamba {
         return mathOperation.operation(a, b);
     }
 
-
-
-
-
 }
 
