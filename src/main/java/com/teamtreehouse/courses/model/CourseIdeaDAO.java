@@ -11,4 +11,5 @@ public interface CourseIdeaDAO {
     List<CourseIdea> findAll();
 
     CourseIdea findBySlug(String slug);
+
 }

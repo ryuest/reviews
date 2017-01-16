@@ -29,4 +29,5 @@ public class SimpleCourseIdeaDAO implements CourseIdeaDAO {
     public CourseIdea findBySlug(String slug) {
         return ideas.stream().filter(idea -> idea.getSlug().equals(slug)).findFirst().orElseThrow(NotFoundException::new);
     }
+
 }
