@@ -6,7 +6,7 @@ function printMessage(username, badCount, points) {
   console.log(message);
 }
 
-function get(username){
+function juri(username){
   var request = http.get("https://teamtreehouse.com/" + username + ".json", function(response){
     console.log(response.statusCode);
     var body = "";
@@ -34,4 +34,9 @@ function printError(error) {
   console.error(error.message);
 }
 
-module.exports.get = get;
+function juri2 (message) {
+  console.log(message);
+}
+
+module.exports.juri = juri;
+module.exports.juri2 = juri2;
