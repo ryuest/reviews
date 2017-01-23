@@ -39,7 +39,7 @@ var Counter = React.createClass ({
     }
   },
 
-  incrementScore: function(e) {
+  incrementScore: function() {
   this.setState({
     score: (this.state.score + 1),
   })
